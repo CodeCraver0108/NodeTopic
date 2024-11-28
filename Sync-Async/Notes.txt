@@ -1,0 +1,16 @@
+The fs module in Node.js provides methods for interacting with the file system, and it supports both synchronous and asynchronous operations.
+
+Key Differences
+Synchronous Methods:
+
+1..Block the execution of subsequent code until the current file system operation is complete.
+2..Useful for small tasks or scripts where blocking behavior is acceptable.
+3..Methods are suffixed with Sync (e.g., readFileSync, writeFileSync).
+
+Asynchronous Methods:
+
+1..Do not block the event loop.
+2..Execute the operation in the background and invoke a callback or return a Promise when complete.
+3..Methods are not suffixed with Sync.
+
+
